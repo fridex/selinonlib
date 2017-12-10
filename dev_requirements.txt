@@ -1,6 +1,8 @@
 -r requirements.txt
 pytest>=3
 pytest-timeout
+pytest-cov
+pydocstyle
 pylint
 #coala-bears
 # Storage implementations requirements
@@ -8,6 +10,6 @@ pymongo
 SQLAlchemy
 SQLAlchemy-Utils
 boto3
-pytest-catchlog
-pydocstyle
-#redis
+redis
+celery
+raven
